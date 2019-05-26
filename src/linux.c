@@ -29,12 +29,12 @@ coord_t returnscreensize()
 };
 //returns the screen width (x) and height (y) in characters
 
-char getch()
+int getch()
 {
     #ifndef GETCH_SANE
     gotoxy(0,0);//necessary
     #endif
-    char c;
+    int c;
     system("stty raw");
     c = getchar();
     system("stty sane");
