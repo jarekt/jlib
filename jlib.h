@@ -1,29 +1,11 @@
 #ifndef JLIB_H_
 #define JLIB_H_
-/////////////////////
-//cross platform code
-/////////////////////
 
 //define coord datatype
 typedef struct {
     int x;
     int y;
 } coord_t;
-
-////////////////////////
-//platform specific code
-////////////////////////
-
-#ifdef __linux__
-#include "platforms/linux.c"
-#endif
-#ifdef _WIN32
-#include "platforms/win32.c"
-#endif
-
-/////////////////////
-//header declarations
-/////////////////////
 
 void cls();
 //clears the screen
@@ -44,5 +26,5 @@ void beep();
 //beeps once
 
 
-//for linux implementation define GETCH_SANE if u dont want get cursor in screen corner
+//for linux implementation define GETCH_SANE if u dont want your cursor to jump to a screen corner
 #endif
