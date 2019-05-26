@@ -16,7 +16,7 @@ void gotoxy(int x, int y);
 coord_t returnscreensize();
 //returns the screen width (x) and height (y) in characters
 
-char getch();
+int getch();
 //waits for keypress
 
 int kbhit();
