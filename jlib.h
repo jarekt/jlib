@@ -26,5 +26,5 @@ void beep();
 //beeps once
 
 
-//for linux implementation define GETCH_SANE if u dont want your cursor to jump to a screen corner
+//GETCH_SANE removed - it's more readable to just goto(0,0)
 #endif

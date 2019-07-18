@@ -31,9 +31,6 @@ coord_t returnscreensize()
 
 int getch()
 {
-    #ifndef GETCH_SANE
-    gotoxy(0,0);//necessary
-    #endif
     int c;
     system("stty raw");
     c = getchar();

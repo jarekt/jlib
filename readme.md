@@ -4,4 +4,5 @@ This library implements a minimal amount of functions for simple cursor manipula
 
 - compatible with both linux terminal and windows console
 - tested on gcc and microsoft visual studio
+- **now cmake compatible *!!!***
 
