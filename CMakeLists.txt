@@ -1,4 +1,4 @@
-project(jlib VERSION 1.0.3)
+project(jlib VERSION 1.3)
 if(UNIX)
 add_library(jlib src/linux.c)
 elseif(WIN32)
