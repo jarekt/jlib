@@ -10,5 +10,3 @@ This library implements a minimal amount of functions for simple cursor manipula
 - copy jlib to your cmake root folder
 - add *add_subdirectory(jlib)  
 target_link_libraries((your linking target) jlib)* to your CmakeLists.txt
-
- **not tested with other compilers other than visual studio and gcc**
